@@ -6,6 +6,7 @@
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	--button-bg: rgb(84,78,220);
 }
 * {
 	margin: 0;
