@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import Button from '../Button/Button'
+import Banner from '../Banner/Banner'
 const Homepage = () => {
+  let alertM = ()=>{
+    alert()
+  }
   return (
     <>
-    <div>Homepage</div>
-    <Button text="Get started" className='get-started-btn' link='/'/>
+        <Banner/>
+    <Button text="Get started" className='get-started-btn' clickHandler={alertM}/>
+
   </>
   )
 }
