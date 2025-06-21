@@ -16,10 +16,9 @@
 body {
 	margin: 0;
 	min-width: 320px;
-	min-height: 100vh;
+	min-height: 100dvh;
 	font-family: Roobert, sans-serif;
-	background: linear-gradient(82deg, #87ceeb9e, transparent) no-repeat;
-	padding-left: 6.8rem;
+	background: #f7f6fe;
 }
 
 a {
