@@ -8,4 +8,8 @@
   &:hover{
     background: color-mix(in srgb, var(--button-bg), transparent 15%);
   }
+  &:focus{
+    border:none !important;
+    outline: none !important;
+  }
 }

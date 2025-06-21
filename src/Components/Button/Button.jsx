@@ -9,7 +9,7 @@ const Button = ({text,className,link,clickHandler}) => {
   <>
     { isLink ? <Link to={link} className={`btn ${className}`}>
       { text }
-    </Link>: isCtaBtn && <button className={className} onClick={clickHandler}>
+    </Link>: isCtaBtn && <button className={`btn ${className}`} onClick={clickHandler}>
       { text }
     </button>}
     </>
