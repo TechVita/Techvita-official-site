@@ -1,0 +1,85 @@
+.banner-section {
+  padding: 1.5rem 0;
+	width: 100%;
+	.banner-content {
+		.text-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+      .top-chip-text{
+        border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+        width: max-content;
+        padding: 0.5rem 0.75rem;
+        border-radius: 50rem;
+        margin-bottom: 20px !important;
+        font-family: var(--heading-font);
+        color: var(--heading-color);
+        font-weight: 500;
+      }
+			.heading {
+        font-size: clamp(28px,calc(25px + 0.938vw),43px);
+        line-height: 1.2;
+				max-width: 90%;
+        margin-bottom: 24px;
+			}
+      .sub-text{
+        font-size: clamp(16px,calc(15.3px + 0.219vw),19.5px);
+        line-height: 1.6;
+        margin-bottom: 24px !important;
+        max-width: 80%;
+        color: var(--text-color);
+      }
+      .discover-more{
+     padding: 0.75rem 1.75rem;
+    font-weight: 700;
+    font-size: 1rem;
+    &:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+      }
+		}
+		.image-wrapper {
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
+.facility-slider{
+  margin-top: 1rem;
+  .swiper-wrapper{
+    padding: 1rem 0;
+  }
+}
+.swiper-pagination {
+	position: unset !important;
+
+	margin: .5rem 0 1rem 0;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	font-size: 1.5rem !important;
+	font-weight: 800 !important;
+}
+.swiper-button-prev {
+	left: -3px !important;
+  top:40% !important;
+}
+.swiper-button-next {
+	right: -3px !important;
+  top:40% !important;
+}
+
+
+@media screen and (min-width:425px) and (max-width:995px) {
+  .banner-section{
+    .row{
+      flex-direction: column;
+      >div{
+        width: 100%;
+      }
+    }
+  }
+}

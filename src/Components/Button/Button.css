@@ -7,7 +7,7 @@
   transition: all 0.3s ease;
   width: max-content;
   &:hover{
-    background: color-mix(in srgb, var(--button-bg), transparent 15%);
+    background: color-mix(in srgb, var(--accent-color), transparent 15%) !important;
   }
   &:focus{
     border:none !important;

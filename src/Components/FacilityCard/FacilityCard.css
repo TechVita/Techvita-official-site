@@ -1,0 +1,27 @@
+.facility-card{
+    background: #fff;
+    padding: 1.5rem;
+    padding-right: 2rem !important;
+    border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+    border-radius: 12px;
+    height: 15.2rem;
+    overflow: auto;
+    display: flex;
+    gap: 1.5rem;
+    .title{
+      font-size: 20px !important;
+      margin-bottom: 0.75rem !important;
+    }
+    .description{
+      font-size: 1rem;
+      color: var(--text-color);
+    }
+  img{
+        width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+    padding: 1rem;
+    background: #EEEEFD;
+    border-radius: 50%;
+  }
+}
