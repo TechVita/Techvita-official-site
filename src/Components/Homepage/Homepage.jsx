@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import Button from "../Button/Button";
 import Banner from "../Banner/Banner";
 import Services from "../../Section/Services";
-import Navbar from "../Navbar/Header.jsx";
+import Navbar from "../Header/Header.jsx";
 const Homepage = () => {
   let alertM = () => {
     alert();
