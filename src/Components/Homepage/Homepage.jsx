@@ -1,20 +1,25 @@
-import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
-import Button from '../Button/Button'
-import Banner from '../Banner/Banner'
-import Services from '../../Section/Services'
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
+import Button from "../Button/Button";
+import Banner from "../Banner/Banner";
+import Services from "../../Section/Services";
+import Navbar from "../Navbar/Header.jsx";
 const Homepage = () => {
-  let alertM = ()=>{
-    alert()
-  }
+  let alertM = () => {
+    alert();
+  };
   return (
     <>
-        <Banner/>
-        <Services />
-    <Button text="Get started" className='get-started-btn' clickHandler={alertM}/>
+      <Navbar />
+      <Banner />
+      <Services />
+      <Button
+        text="Get started"
+        className="get-started-btn"
+        clickHandler={alertM}
+      />
+    </>
+  );
+};
 
-  </>
-  )
-}
-
-export default Homepage
+export default Homepage;

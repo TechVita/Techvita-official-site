@@ -3,9 +3,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "../Button/Button";
-import "./Navbar.css";
+import "./Header.css";
 
-function Navbar() {
+function Header() {
   const [activeLink, setActiveLink] = useState("home");
 
   const handleSelect = (eventKey) => {
@@ -98,4 +98,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
